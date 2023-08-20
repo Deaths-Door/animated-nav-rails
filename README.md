@@ -32,8 +32,8 @@ The NavDot variant features a sleek navigation rail with dot-style navigation ma
 ![NavDot Variant](images/navdot.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-dot.js`** and **`nav-dot.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+1. Copy **`nav-dot.js`** and **`nav-dot.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-dot.css" />
@@ -47,8 +47,9 @@ The Badge variant showcases a navigation rail with badges. Each badge correspond
 ![Badge Variant](images/badge.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-badge.js`** and **`nav-badge.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+
+1. Copy **`nav-badge.js`** and **`nav-badge.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-badge.css" />
@@ -62,8 +63,9 @@ The Chip variant presents a navigation rail with interactive chips. Chips can re
 ![Chip Variant](images/chip.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-chip.js`** and **`nav-chip.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+
+1. Copy **`nav-chip.js`** and **`nav-chip.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-chip.css" />
@@ -77,8 +79,9 @@ The Ghost variant offers a subtle navigation rail with a ghosted appearance unti
 ![Ghost Variant](images/ghost.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-ghost.js`** and **`nav-ghost.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+
+1. Copy **`nav-ghost.js`** and **`nav-ghost.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-ghost.css" />
@@ -92,8 +95,9 @@ The Label variant utilizes labeled tabs in the navigation rail. Each label corre
 ![Label Variant](images/label.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-label.js`** and **`nav-label.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+
+1. Copy **`nav-label.js`** and **`nav-label.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-label.css" />
@@ -107,8 +111,9 @@ The Rounded variant features a navigation rail with rounded buttons, providing a
 ![Rounded Variant](images/rounded.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-rounded.js`** and **`nav-rounded.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+
+1. Copy **`nav-rounded.js`** and **`nav-rounded.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-rounded.css" />
@@ -122,8 +127,8 @@ The Side variant showcases a side navigation rail that expands upon clicking the
 ![Side Variant](images/side.gif)
 
 ****Technique to Use:****
-**1.** Copy **`nav-side.js`** and **`nav-side.css`** into your project directory.
-**2.** Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
+1. Copy **`nav-side.js`** and **`nav-side.css`** into your project directory.
+2. Add the following code into the **`<head>`** section of your HTML file to include the script and stylesheet
 
 ```html
     <link rel="stylesheet" href="./styles/nav-side.css" />
