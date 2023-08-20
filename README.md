@@ -14,7 +14,6 @@
 * **HTML:** Structuring the foundation of the navigation rails.
 * **CSS:** Styling the rails and animations for a visually stunning experience.
 * **JavaScript:** Adding interactivity and dynamic behavior to the navigation rail variants.
-*
 
 🔗 **Usage:**
 
