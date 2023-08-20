@@ -1,0 +1,36 @@
+nav.nav-label > ul > li > a {
+	transition: color 0.2s ease-in-out;
+}
+
+nav.nav-label > a.exit > span,
+nav.nav-label > ul > li > a > span {
+	display: grid;
+	grid-template-rows: 0fr;
+	margin: 0 -1rem;
+	height: 0;
+	opacity: 0;
+
+	transition: grid-template-rows 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+nav.nav-label > ul > li.active > a {
+	fill: var(--primary);
+	color: var(--primary);
+
+	margin: -0.25rem 0 -0.85rem;
+}
+
+nav.nav-label > ul > li:not(.active):is(:hover, :focus, :active) > a {
+	fill: var(--primary);
+	color: var(--primary);
+}
+
+nav.nav-label > a.exit:is(:hover, :focus, :active) > span,
+nav.nav-label > ul > li.active > a > span {
+	grid-template-rows: 1fr;
+	opacity: 1;
+}
+
+nav.nav-label > ul > li.active > a > span {
+	margin-bottom: 1.1rem;
+}

@@ -1,0 +1,30 @@
+nav.nav-ghost > ul > li > a {
+	background-color: transparent;
+	border-radius: 0.5rem;
+
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+nav.nav-ghost > ul > li:not(.active):is(:hover, :focus, :active) > a {
+	fill: var(--primary);
+	color: var(--primary);
+
+	background-color: var(--bg-primary-light);
+}
+
+nav.nav-ghost > ul > li.active > a {
+	fill: var(--primary);
+	color: var(--primary);
+	background-color: var(--bg-primary-alt);
+}
+
+nav.nav-ghost > a.exit {
+	background-color: transparent;
+	border-radius: 0.5rem;
+
+	transition: background-color 0.2s ease-in-out;
+}
+
+nav.nav-ghost > a.exit:is(:hover, :focus, :active) {
+	background-color: var(--bg-warn-light);
+}

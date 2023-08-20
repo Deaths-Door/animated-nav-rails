@@ -1,0 +1,42 @@
+nav.nav-side > ul > li > a {
+	position: relative;
+
+	transition: color 0.2s ease-in-out;
+}
+
+nav.nav-side > ul > li > a::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+	width: 0.25rem;
+	height: 100%;
+	margin-right: -1rem;
+	overflow: hidden;
+
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 1rem 0 0 1rem;
+
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+nav.nav-side > ul > li:not(.active):is(:hover, :focus, :active) > a {
+	fill: var(--primary);
+	color: var(--primary);
+}
+
+nav.nav-side > ul > li:not(.active):is(:hover, :focus, :active) > a::before {
+	background-color: var(--bg-primary-alt);
+}
+
+nav.nav-side > ul > li.active > a {
+	fill: var(--primary);
+	color: var(--primary);
+}
+
+nav.nav-side > ul > li.active > a::before {
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
